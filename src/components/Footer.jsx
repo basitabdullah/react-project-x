@@ -25,14 +25,15 @@ const Footer = () => {
               border={'none'}
               borderRadius={'none'}
               outline={'none'}
+              focusBorderColor='none'
             ></Input>
             <Button
               p={'0'}
-              color={'white'}
+              color={'purple'}
               variant={'ghost'}
               borderRadius={'0 20px 20px 0'}
             >
-              <AiOutlineSend />
+              <AiOutlineSend size={"20"} />
             </Button>
           </HStack>
         </VStack>
